@@ -3,30 +3,6 @@
   "WorkspaceRootPath": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|c:\\users\\bayron.cuesta\\onedrive - aecom\\documentos\\github\\otto_digitaltwins\\hubsbrowser24_digitaltwins\\wwwroot\\extensions\\progressbarpanel.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|solutionrelative:wwwroot\\extensions\\progressbarpanel.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|c:\\users\\bayron.cuesta\\onedrive - aecom\\documentos\\github\\otto_digitaltwins\\hubsbrowser24_digitaltwins\\wwwroot\\extensions\\sensordataextension.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|solutionrelative:wwwroot\\extensions\\sensordataextension.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|c:\\users\\bayron.cuesta\\onedrive - aecom\\documentos\\github\\otto_digitaltwins\\hubsbrowser24_digitaltwins\\wwwroot\\extensions\\sensordataclient.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|solutionrelative:wwwroot\\extensions\\sensordataclient.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|c:\\users\\bayron.cuesta\\onedrive - aecom\\documentos\\github\\otto_digitaltwins\\hubsbrowser24_digitaltwins\\wwwroot\\extensions\\progressbarextension.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|solutionrelative:wwwroot\\extensions\\progressbarextension.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|c:\\users\\bayron.cuesta\\onedrive - aecom\\documentos\\github\\otto_digitaltwins\\hubsbrowser24_digitaltwins\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|solutionrelative:wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|c:\\users\\bayron.cuesta\\onedrive - aecom\\documentos\\github\\otto_digitaltwins\\hubsbrowser24_digitaltwins\\wwwroot\\viewer.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|solutionrelative:wwwroot\\viewer.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|c:\\users\\bayron.cuesta\\onedrive - aecom\\documentos\\github\\otto_digitaltwins\\hubsbrowser24_digitaltwins\\wwwroot\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
       "RelativeMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|solutionrelative:wwwroot\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
@@ -35,20 +11,8 @@
       "RelativeMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|solutionrelative:wwwroot\\main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|c:\\users\\bayron.cuesta\\onedrive - aecom\\documentos\\github\\otto_digitaltwins\\hubsbrowser24_digitaltwins\\wwwroot\\sidebar.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|solutionrelative:wwwroot\\sidebar.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|c:\\users\\bayron.cuesta\\onedrive - aecom\\documentos\\github\\otto_digitaltwins\\hubsbrowser24_digitaltwins\\wwwroot\\botones.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|solutionrelative:wwwroot\\botones.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|c:\\users\\bayron.cuesta\\onedrive - aecom\\documentos\\github\\otto_digitaltwins\\hubsbrowser24_digitaltwins\\controllers\\sensorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|solutionrelative:controllers\\sensorscontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|c:\\users\\bayron.cuesta\\onedrive - aecom\\documentos\\github\\otto_digitaltwins\\hubsbrowser24_digitaltwins\\wwwroot\\extensions\\emptyparamspanel.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|solutionrelative:wwwroot\\extensions\\emptyparamspanel.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|c:\\users\\bayron.cuesta\\onedrive - aecom\\documentos\\github\\otto_digitaltwins\\hubsbrowser24_digitaltwins\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|solutionrelative:wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     }
   ],
   "DocumentGroupContainers": [
@@ -58,7 +22,7 @@
       "DocumentGroups": [
         {
           "DockedWidth": 496,
-          "SelectedChildIndex": 2,
+          "SelectedChildIndex": 1,
           "Children": [
             {
               "$type": "Bookmark",
@@ -66,158 +30,47 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
-              "Title": "ProgressBarExtension.js",
-              "DocumentMoniker": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\ProgressBarExtension.js",
-              "RelativeDocumentMoniker": "wwwroot\\extensions\\ProgressBarExtension.js",
-              "ToolTip": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\ProgressBarExtension.js",
-              "RelativeToolTip": "wwwroot\\extensions\\ProgressBarExtension.js",
-              "ViewState": "AQIAAAQAAAAAAAAAAAA1wAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-12-09T17:04:03.772Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 0,
-              "Title": "ProgressBarPanel.js",
-              "DocumentMoniker": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\ProgressBarPanel.js",
-              "RelativeDocumentMoniker": "wwwroot\\extensions\\ProgressBarPanel.js",
-              "ToolTip": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\ProgressBarPanel.js",
-              "RelativeToolTip": "wwwroot\\extensions\\ProgressBarPanel.js",
-              "ViewState": "AQIAALgAAAAAAAAAAAAgwNgAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-12-09T16:40:50.072Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "main.js",
-              "DocumentMoniker": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\main.js",
-              "RelativeDocumentMoniker": "wwwroot\\main.js",
-              "ToolTip": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\main.js",
-              "RelativeToolTip": "wwwroot\\main.js",
-              "ViewState": "AQIAAFsAAAAAAAAAAAAgwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-12-09T16:38:24.912Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 2,
               "Title": "index.html",
               "DocumentMoniker": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\index.html",
               "RelativeDocumentMoniker": "wwwroot\\index.html",
               "ToolTip": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\index.html",
               "RelativeToolTip": "wwwroot\\index.html",
-              "ViewState": "AQIAABsAAAAAAAAAAAAAAEgAAAAHAAAA",
+              "ViewState": "AQIAABsAAAAAAAAAAAAAAD8AAAAfAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
-              "WhenOpened": "2024-12-09T16:38:05.936Z",
+              "WhenOpened": "2024-12-09T19:49:11.965Z",
               "EditorCaption": ""
-            },
+            }
+          ]
+        },
+        {
+          "DockedWidth": 496,
+          "SelectedChildIndex": 0,
+          "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "viewer.js",
-              "DocumentMoniker": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\viewer.js",
-              "RelativeDocumentMoniker": "wwwroot\\viewer.js",
-              "ToolTip": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\viewer.js",
-              "RelativeToolTip": "wwwroot\\viewer.js",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "DocumentIndex": 0,
+              "Title": "main.js",
+              "DocumentMoniker": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\main.js",
+              "RelativeDocumentMoniker": "wwwroot\\main.js",
+              "ToolTip": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\main.js",
+              "RelativeToolTip": "wwwroot\\main.js",
+              "ViewState": "AQIAADIAAAAAAAAAAAAQwAAAAAAAAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-12-09T16:37:49.933Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 7,
-              "Title": "main.css",
-              "DocumentMoniker": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\main.css",
-              "RelativeDocumentMoniker": "wwwroot\\main.css",
-              "ToolTip": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\main.css",
-              "RelativeToolTip": "wwwroot\\main.css",
-              "ViewState": "AQIAAD8BAAAAAAAAAAAAAFQBAAASAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-12-09T16:13:44.859Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "SensorDataClient.js",
-              "DocumentMoniker": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\SensorDataClient.js",
-              "RelativeDocumentMoniker": "wwwroot\\extensions\\SensorDataClient.js",
-              "ToolTip": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\SensorDataClient.js",
-              "RelativeToolTip": "wwwroot\\extensions\\SensorDataClient.js",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAD8AAABLAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-12-09T16:12:19.845Z",
+              "WhenOpened": "2024-12-09T21:07:55.925Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "SensorDataExtension.js",
-              "DocumentMoniker": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\SensorDataExtension.js",
-              "RelativeDocumentMoniker": "wwwroot\\extensions\\SensorDataExtension.js",
-              "ToolTip": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\SensorDataExtension.js",
-              "RelativeToolTip": "wwwroot\\extensions\\SensorDataExtension.js",
-              "ViewState": "AQIAAGgBAAAAAAAAAAAmwAoCAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-12-09T16:12:54.451Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "sidebar.js",
-              "DocumentMoniker": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\sidebar.js",
-              "RelativeDocumentMoniker": "wwwroot\\sidebar.js",
-              "ToolTip": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\sidebar.js",
-              "RelativeToolTip": "wwwroot\\sidebar.js",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-12-09T16:40:21.539Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "botones.js",
-              "DocumentMoniker": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\botones.js",
-              "RelativeDocumentMoniker": "wwwroot\\botones.js",
-              "ToolTip": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\botones.js",
-              "RelativeToolTip": "wwwroot\\botones.js",
-              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-12-09T16:39:29.766Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
-              "Title": "SensorsController.cs",
-              "DocumentMoniker": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\Controllers\\SensorsController.cs",
-              "RelativeDocumentMoniker": "Controllers\\SensorsController.cs",
-              "ToolTip": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\Controllers\\SensorsController.cs",
-              "RelativeToolTip": "Controllers\\SensorsController.cs",
-              "ViewState": "AQIAAC8AAAAAAAAAAAAwwAAAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-09T16:13:33.414Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "EmptyParamsPanel.js",
-              "DocumentMoniker": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\EmptyParamsPanel.js",
-              "RelativeDocumentMoniker": "wwwroot\\extensions\\EmptyParamsPanel.js",
-              "ToolTip": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\EmptyParamsPanel.js",
-              "RelativeToolTip": "wwwroot\\extensions\\EmptyParamsPanel.js",
-              "ViewState": "AQIAAAYAAAAAAAAAAAAAABkAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-12-08T16:52:37.923Z",
+              "Title": "main.css",
+              "DocumentMoniker": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\main.css",
+              "RelativeDocumentMoniker": "wwwroot\\main.css",
+              "ToolTip": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\main.css",
+              "RelativeToolTip": "wwwroot\\main.css",
+              "ViewState": "AQIAAIABAAAAAAAAAAAAAKoAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-09T16:13:44.859Z",
               "EditorCaption": ""
             }
           ]

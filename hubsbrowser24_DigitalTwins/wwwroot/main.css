@@ -9,6 +9,10 @@
     position: absolute;
 }
 
+
+/*_________________________________________________________________________________*/
+
+
 #toolbar {
     position: absolute;
     top: 48px;
@@ -25,6 +29,7 @@
     transform-origin: top;
     transition: width 0.3s ease; /* Transición suave para el cambio de ancho */
 }
+
 
 /* Cuando el botón menu-btn se presiona */
 #toolbar.hidden {
@@ -98,6 +103,77 @@
 .toolbar-btn:hover {
     background-color: #008768; /* Color más oscuro al pasar el ratón */
 }
+
+
+
+/*_________________________________________________________________________________*/
+
+
+
+/* Estilos del toolbar fijo en el lado derecho */
+#toolbarDT {
+    position: fixed; /* Fijo en la pantalla */
+    top: 48px; /* Empieza desde la parte superior */
+    right: 0; /* Pegado al lado derecho */
+    display: flex;
+    flex-direction: column; /* Alineación vertical de los botones */
+    background-color: #2c2c2f; /* Fondo oscuro */
+    width: 75px; /* Ancho fijo del toolbar */
+    height: 100%; /* Ocupa toda la altura de la pantalla */
+    align-items: center; /* Centra los botones horizontalmente */
+    z-index: 3000; /* Siempre visible y sobre otros elementos */
+    justify-content: flex-start; /* Botones alineados al inicio */
+    padding-top: 40px; /* Espacio superior para el primer botón */
+}
+
+/* Estilos de los botones dentro del toolbar */
+.toolbarDT-btn {
+    width: 60px; /* Ancho del botón circular */
+    height: 60px; /* Alto igual al ancho para mantener forma circular */
+    margin-bottom: 20px; /* Espaciado entre botones */
+    padding: 10px; /* Relleno interno */
+    border: none; /* Sin bordes */
+    border-radius: 50%; /* Forma circular */
+    background-color: #000000; /* Fondo negro */
+    color: white; /* Ícono blanco */
+    font-size: 1.5em; /* Tamaño del ícono */
+    cursor: pointer; /* Cambia el cursor al pasar */
+    display: flex;
+    justify-content: center; /* Centra el ícono horizontalmente */
+    align-items: center; /* Centra el ícono verticalmente */
+    transition: background-color 0.3s ease, transform 0.3s ease; /* Animación al hover */
+}
+
+/* Efecto hover en los botones */
+.toolbarDT-btn:hover {
+    background-color: #008768; /* Fondo verde oscuro al pasar el ratón */
+    transform: scale(1.1); /* Escala ligeramente el botón */
+}
+
+/* Estilo del ícono dentro del botón */
+.toolbarDT-btn i {
+    color: white; /* Ícono blanco */
+    font-size: 1.5em; /* Ajuste del tamaño del ícono */
+    transition: transform 0.3s ease; /* Animación al hover */
+}
+
+.toolbarDT-btn:hover i {
+    transform: scale(1.2); /* El ícono crece ligeramente al pasar */
+}
+
+
+/* Cuando el botón menu-btn se presiona */
+#toolbar.bar-DT {
+    width: 75px; /* Reducir el 70% del tamaño del toolbar */
+}
+
+
+
+
+/*_________________________________________________________________________________*/
+
+
+
 
 #header {
     height: 3em;
@@ -334,7 +410,7 @@
     top: 48px;
     right: -650px; /* Oculto */
     width: 550px;
-    height: 90%;
+    height: 100%;
     opacity: 0.7;
     padding: 20px;
     background-color: #3b3b3f;
