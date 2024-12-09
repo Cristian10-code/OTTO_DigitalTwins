@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "ey2c7FKnRXX+Iqj/g+Aj9QBSrPKsOePtjw83dwkzFOI=",
+  "Hash": "gU38dEJCxarbeR6mmjDPZW0DiuvA/f5BQNc2IDag5vs=",
   "Source": "hubsbrowser24",
   "BasePath": "_content/hubsbrowser24",
   "Mode": "Default",
@@ -10,17 +10,17 @@
     {
       "Name": "hubsbrowser24\\wwwroot",
       "Source": "hubsbrowser24",
-      "ContentRoot": "C:\\Users\\sarmientoc\\Documents\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\",
       "BasePath": "_content/hubsbrowser24",
       "Pattern": "**"
     }
   ],
   "Assets": [
     {
-      "Identity": "C:\\Users\\sarmientoc\\Documents\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\botones.js",
+      "Identity": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\botones.js",
       "SourceId": "hubsbrowser24",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sarmientoc\\Documents\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\",
       "BasePath": "_content/hubsbrowser24",
       "RelativePath": "botones.js",
       "AssetKind": "All",
@@ -36,10 +36,10 @@
       "OriginalItemSpec": "wwwroot\\botones.js"
     },
     {
-      "Identity": "C:\\Users\\sarmientoc\\Documents\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\BaseExtension.js",
+      "Identity": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\BaseExtension.js",
       "SourceId": "hubsbrowser24",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sarmientoc\\Documents\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\",
       "BasePath": "_content/hubsbrowser24",
       "RelativePath": "extensions/BaseExtension.js",
       "AssetKind": "All",
@@ -55,10 +55,10 @@
       "OriginalItemSpec": "wwwroot\\extensions\\BaseExtension.js"
     },
     {
-      "Identity": "C:\\Users\\sarmientoc\\Documents\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\DataGridExtension.js",
+      "Identity": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\DataGridExtension.js",
       "SourceId": "hubsbrowser24",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sarmientoc\\Documents\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\",
       "BasePath": "_content/hubsbrowser24",
       "RelativePath": "extensions/DataGridExtension.js",
       "AssetKind": "All",
@@ -74,10 +74,10 @@
       "OriginalItemSpec": "wwwroot\\extensions\\DataGridExtension.js"
     },
     {
-      "Identity": "C:\\Users\\sarmientoc\\Documents\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\DataGridPanel.js",
+      "Identity": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\DataGridPanel.js",
       "SourceId": "hubsbrowser24",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sarmientoc\\Documents\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\",
       "BasePath": "_content/hubsbrowser24",
       "RelativePath": "extensions/DataGridPanel.js",
       "AssetKind": "All",
@@ -93,10 +93,10 @@
       "OriginalItemSpec": "wwwroot\\extensions\\DataGridPanel.js"
     },
     {
-      "Identity": "C:\\Users\\sarmientoc\\Documents\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\EmptyParamsExtension.js",
+      "Identity": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\EmptyParamsExtension.js",
       "SourceId": "hubsbrowser24",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sarmientoc\\Documents\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\",
       "BasePath": "_content/hubsbrowser24",
       "RelativePath": "extensions/EmptyParamsExtension.js",
       "AssetKind": "All",
@@ -112,10 +112,10 @@
       "OriginalItemSpec": "wwwroot\\extensions\\EmptyParamsExtension.js"
     },
     {
-      "Identity": "C:\\Users\\sarmientoc\\Documents\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\EmptyParamsPanel.js",
+      "Identity": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\EmptyParamsPanel.js",
       "SourceId": "hubsbrowser24",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sarmientoc\\Documents\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\",
       "BasePath": "_content/hubsbrowser24",
       "RelativePath": "extensions/EmptyParamsPanel.js",
       "AssetKind": "All",
@@ -131,10 +131,10 @@
       "OriginalItemSpec": "wwwroot\\extensions\\EmptyParamsPanel.js"
     },
     {
-      "Identity": "C:\\Users\\sarmientoc\\Documents\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\GeorefExtension.js",
+      "Identity": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\GeorefExtension.js",
       "SourceId": "hubsbrowser24",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sarmientoc\\Documents\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\",
       "BasePath": "_content/hubsbrowser24",
       "RelativePath": "extensions/GeorefExtension.js",
       "AssetKind": "All",
@@ -150,10 +150,10 @@
       "OriginalItemSpec": "wwwroot\\extensions\\GeorefExtension.js"
     },
     {
-      "Identity": "C:\\Users\\sarmientoc\\Documents\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\HistogramExtension.js",
+      "Identity": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\HistogramExtension.js",
       "SourceId": "hubsbrowser24",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sarmientoc\\Documents\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\",
       "BasePath": "_content/hubsbrowser24",
       "RelativePath": "extensions/HistogramExtension.js",
       "AssetKind": "All",
@@ -169,10 +169,10 @@
       "OriginalItemSpec": "wwwroot\\extensions\\HistogramExtension.js"
     },
     {
-      "Identity": "C:\\Users\\sarmientoc\\Documents\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\HistogramPanel.js",
+      "Identity": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\HistogramPanel.js",
       "SourceId": "hubsbrowser24",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sarmientoc\\Documents\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\",
       "BasePath": "_content/hubsbrowser24",
       "RelativePath": "extensions/HistogramPanel.js",
       "AssetKind": "All",
@@ -188,10 +188,10 @@
       "OriginalItemSpec": "wwwroot\\extensions\\HistogramPanel.js"
     },
     {
-      "Identity": "C:\\Users\\sarmientoc\\Documents\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\HistoricalDataView.js",
+      "Identity": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\HistoricalDataView.js",
       "SourceId": "hubsbrowser24",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sarmientoc\\Documents\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\",
       "BasePath": "_content/hubsbrowser24",
       "RelativePath": "extensions/HistoricalDataView.js",
       "AssetKind": "All",
@@ -207,10 +207,10 @@
       "OriginalItemSpec": "wwwroot\\extensions\\HistoricalDataView.js"
     },
     {
-      "Identity": "C:\\Users\\sarmientoc\\Documents\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\LoggerExtension.js",
+      "Identity": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\LoggerExtension.js",
       "SourceId": "hubsbrowser24",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sarmientoc\\Documents\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\",
       "BasePath": "_content/hubsbrowser24",
       "RelativePath": "extensions/LoggerExtension.js",
       "AssetKind": "All",
@@ -226,10 +226,10 @@
       "OriginalItemSpec": "wwwroot\\extensions\\LoggerExtension.js"
     },
     {
-      "Identity": "C:\\Users\\sarmientoc\\Documents\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\ProgressBarExtension.js",
+      "Identity": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\ProgressBarExtension.js",
       "SourceId": "hubsbrowser24",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sarmientoc\\Documents\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\",
       "BasePath": "_content/hubsbrowser24",
       "RelativePath": "extensions/ProgressBarExtension.js",
       "AssetKind": "All",
@@ -245,10 +245,10 @@
       "OriginalItemSpec": "wwwroot\\extensions\\ProgressBarExtension.js"
     },
     {
-      "Identity": "C:\\Users\\sarmientoc\\Documents\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\ProgressBarPanel.js",
+      "Identity": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\ProgressBarPanel.js",
       "SourceId": "hubsbrowser24",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sarmientoc\\Documents\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\",
       "BasePath": "_content/hubsbrowser24",
       "RelativePath": "extensions/ProgressBarPanel.js",
       "AssetKind": "All",
@@ -264,10 +264,10 @@
       "OriginalItemSpec": "wwwroot\\extensions\\ProgressBarPanel.js"
     },
     {
-      "Identity": "C:\\Users\\sarmientoc\\Documents\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\SensorDataClient.js",
+      "Identity": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\SensorDataClient.js",
       "SourceId": "hubsbrowser24",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sarmientoc\\Documents\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\",
       "BasePath": "_content/hubsbrowser24",
       "RelativePath": "extensions/SensorDataClient.js",
       "AssetKind": "All",
@@ -283,10 +283,10 @@
       "OriginalItemSpec": "wwwroot\\extensions\\SensorDataClient.js"
     },
     {
-      "Identity": "C:\\Users\\sarmientoc\\Documents\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\SensorDataExtension.js",
+      "Identity": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\SensorDataExtension.js",
       "SourceId": "hubsbrowser24",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sarmientoc\\Documents\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\",
       "BasePath": "_content/hubsbrowser24",
       "RelativePath": "extensions/SensorDataExtension.js",
       "AssetKind": "All",
@@ -302,10 +302,10 @@
       "OriginalItemSpec": "wwwroot\\extensions\\SensorDataExtension.js"
     },
     {
-      "Identity": "C:\\Users\\sarmientoc\\Documents\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\SensorDetailPanel.js",
+      "Identity": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\SensorDetailPanel.js",
       "SourceId": "hubsbrowser24",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sarmientoc\\Documents\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\",
       "BasePath": "_content/hubsbrowser24",
       "RelativePath": "extensions/SensorDetailPanel.js",
       "AssetKind": "All",
@@ -321,10 +321,10 @@
       "OriginalItemSpec": "wwwroot\\extensions\\SensorDetailPanel.js"
     },
     {
-      "Identity": "C:\\Users\\sarmientoc\\Documents\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\SensorHeatmapsExtension.js",
+      "Identity": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\SensorHeatmapsExtension.js",
       "SourceId": "hubsbrowser24",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sarmientoc\\Documents\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\",
       "BasePath": "_content/hubsbrowser24",
       "RelativePath": "extensions/SensorHeatmapsExtension.js",
       "AssetKind": "All",
@@ -340,10 +340,10 @@
       "OriginalItemSpec": "wwwroot\\extensions\\SensorHeatmapsExtension.js"
     },
     {
-      "Identity": "C:\\Users\\sarmientoc\\Documents\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\SensorHeatmapsPanel.js",
+      "Identity": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\SensorHeatmapsPanel.js",
       "SourceId": "hubsbrowser24",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sarmientoc\\Documents\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\",
       "BasePath": "_content/hubsbrowser24",
       "RelativePath": "extensions/SensorHeatmapsPanel.js",
       "AssetKind": "All",
@@ -359,10 +359,10 @@
       "OriginalItemSpec": "wwwroot\\extensions\\SensorHeatmapsPanel.js"
     },
     {
-      "Identity": "C:\\Users\\sarmientoc\\Documents\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\SensorListExtension.js",
+      "Identity": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\SensorListExtension.js",
       "SourceId": "hubsbrowser24",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sarmientoc\\Documents\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\",
       "BasePath": "_content/hubsbrowser24",
       "RelativePath": "extensions/SensorListExtension.js",
       "AssetKind": "All",
@@ -378,10 +378,10 @@
       "OriginalItemSpec": "wwwroot\\extensions\\SensorListExtension.js"
     },
     {
-      "Identity": "C:\\Users\\sarmientoc\\Documents\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\SensorListPanel.js",
+      "Identity": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\SensorListPanel.js",
       "SourceId": "hubsbrowser24",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sarmientoc\\Documents\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\",
       "BasePath": "_content/hubsbrowser24",
       "RelativePath": "extensions/SensorListPanel.js",
       "AssetKind": "All",
@@ -397,10 +397,10 @@
       "OriginalItemSpec": "wwwroot\\extensions\\SensorListPanel.js"
     },
     {
-      "Identity": "C:\\Users\\sarmientoc\\Documents\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\SummaryPanel.js",
+      "Identity": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\SummaryPanel.js",
       "SourceId": "hubsbrowser24",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sarmientoc\\Documents\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\",
       "BasePath": "_content/hubsbrowser24",
       "RelativePath": "extensions/SummaryPanel.js",
       "AssetKind": "All",
@@ -416,10 +416,10 @@
       "OriginalItemSpec": "wwwroot\\extensions\\SummaryPanel.js"
     },
     {
-      "Identity": "C:\\Users\\sarmientoc\\Documents\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\index.html",
+      "Identity": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\index.html",
       "SourceId": "hubsbrowser24",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sarmientoc\\Documents\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\",
       "BasePath": "_content/hubsbrowser24",
       "RelativePath": "index.html",
       "AssetKind": "All",
@@ -435,10 +435,10 @@
       "OriginalItemSpec": "wwwroot\\index.html"
     },
     {
-      "Identity": "C:\\Users\\sarmientoc\\Documents\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\main.css",
+      "Identity": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\main.css",
       "SourceId": "hubsbrowser24",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sarmientoc\\Documents\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\",
       "BasePath": "_content/hubsbrowser24",
       "RelativePath": "main.css",
       "AssetKind": "All",
@@ -454,10 +454,10 @@
       "OriginalItemSpec": "wwwroot\\main.css"
     },
     {
-      "Identity": "C:\\Users\\sarmientoc\\Documents\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\main.js",
+      "Identity": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\main.js",
       "SourceId": "hubsbrowser24",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sarmientoc\\Documents\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\",
       "BasePath": "_content/hubsbrowser24",
       "RelativePath": "main.js",
       "AssetKind": "All",
@@ -473,10 +473,10 @@
       "OriginalItemSpec": "wwwroot\\main.js"
     },
     {
-      "Identity": "C:\\Users\\sarmientoc\\Documents\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\sidebar.js",
+      "Identity": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\sidebar.js",
       "SourceId": "hubsbrowser24",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sarmientoc\\Documents\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\",
       "BasePath": "_content/hubsbrowser24",
       "RelativePath": "sidebar.js",
       "AssetKind": "All",
@@ -492,10 +492,10 @@
       "OriginalItemSpec": "wwwroot\\sidebar.js"
     },
     {
-      "Identity": "C:\\Users\\sarmientoc\\Documents\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\viewer.js",
+      "Identity": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\viewer.js",
       "SourceId": "hubsbrowser24",
       "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\sarmientoc\\Documents\\GitHub\\DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\",
+      "ContentRoot": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\",
       "BasePath": "_content/hubsbrowser24",
       "RelativePath": "viewer.js",
       "AssetKind": "All",

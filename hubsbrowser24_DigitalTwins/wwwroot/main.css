@@ -361,109 +361,172 @@
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
-.temperature-marker {
-    background-color: white;
-    color: blue;
-    padding: 5px;
-    border-radius: 4px;
-    font-size: 14px;
-    text-align: center;
-    pointer-events: auto;
-}
 
-label.markup {
-    position: absolute;
-    white-space: nowrap;
+
+
+/*Sensores temperatura*/
+
+
+/* Estado normal del botón */
+#SensorData-button {
+    /*background-color: #f0f0f0;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);*/
+    transition: all 0.2s ease;
     cursor: pointer;
 }
 
-label.update {
-    z-index: 1;
+/* Estado presionado (hundido) */
+#SensorData-button.button-pressed {
+    background-color: #99c3f0a1;
+    color: white;
+    box-shadow: inset 2px 2px 4px rgba(0, 0, 0, 0.2); /* Efecto "hundido" */
+    border: 1px solid #0056b3a6;
+    transform: translateY(2px); /* Leve desplazamiento */
 }
 
-.temperatureBorder {
-    background-color: rgba(256, 256, 256, 0.6);
-    border: 1px solid black;
-    border-radius: 6px;
-    padding: 5px;
-}
-
-.temperatureHigh {
-    font-size: 14px;
-    color: red;
-}
-
-.temperatureYellow {
-    font-size: 14px;
-    color: orange;
-}
-
-.temperatureOk {
-    font-size: 14px;
-    color: green;
-}
-
-.temperatureBlue {
-    font-size: 14px;
-    color: blue;
-}
-
-.temperatureLow {
-    font-size: 14px;
-    color: darkblue;
-}
-
-.co2High {
-    font-size: 14px;
-    color: red;
-}
-
-.co2Medium {
-    font-size: 14px;
-    color: orange;
-}
-
-.co2Low {
-    font-size: 14px;
-    color: green;
-}
-
-.humidityHigh {
-    font-size: 14px;
-    color: blue;
-}
-
-.humidityOk {
-    font-size: 14px;
-    color: green;
-}
-
-.humidityLow {
-    font-size: 14px;
-    color: brown;
-}
-
-.maintenance {
-    font-size: 14px;
-    color: gray;
-}
-
-.sensorValue {
-    font-size: 14px;
-    color: black;
-}
 
 .sensorMarkup {
-    background-color: rgba(255, 255, 255, 0.7);
+    transition: opacity 0.2s ease-in-out;
+    pointer-events: none; /* Evitar interacción en previsualización */
+}
+
+
+
+
+.docking-panel {
+    border-radius: 8px !important;
+    background-color: #2b2b2b !important;
+    color: #eee !important;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.5) !important;
+    font-family: Arial, sans-serif;
+}
+
+    .docking-panel select {
+        border-radius: 4px;
+        border: 1px solid #444;
+        background-color: #3b3b3b;
+        color: #fff;
+        padding: 5px;
+    }
+
+
+
+
+.sensorSphere {
+    cursor: pointer;
+    transition: transform 0.2s, background-color 0.2s;
+}
+
+.sensorSphere:hover {
+    transform: scale(1.2);
+}
+
+
+
+
+
+/* Contenedor principal de los markups */
+.sensorMarkup {
+    background-color: rgba(255, 255, 255, 0.9);
     border: 1px solid black;
-    border-radius: 6px;
-    padding: 5px;
+    border-radius: 8px;
+    padding: 8px;
     position: absolute;
     pointer-events: auto;
     z-index: 10;
     text-align: center;
+    display: flex;
+    flex-direction: column; /* Alineación vertical */
+    gap: 10px; /* Espacio entre los bloques */
 }
 
-.sensorMarkup div {
-    margin-bottom: 2px;
+.sensorTitle {
+    text-align: center;
+    font-weight: bold;
+    font-size: 16px;
+    margin-bottom: 5px;
+}
+
+/*los deja ne paralelo A|B|C*/
+.sensorSectionContainer {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Espaciado entre los elementos */
+    align-items: center;
+}
+
+
+/*Agerga lineas*/
+.sensorSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 5px;
+    border-right: 1px solid #ccc;
+}
+    /*Quita la ultima*/
+    .sensorSection:last-child {
+        border-right: none;
+    }
+
+    /*Sensores estilos*/
+    /* Estilo del título de cada sensor */
+    .sensorSection .title {
+        font-size: 12px;
+        font-weight: bold;
+        color: black;
+    }
+
+    /* Estilo del valor del sensor */
+    .sensorSection .value {
+        font-size: 14px;
+        font-weight: normal;
+    }
+
+
+/* Colores dinámicos (basados en la lógica de getClassForValue) */
+.temperatureHigh {
+    color: red;
+}
+
+.temperatureYellow {
+    color: orange;
+}
+
+.temperatureGreen {
+    color: green;
+}
+
+.temperatureCyan {
+    color: cyan;
+}
+
+.temperatureBlueDark {
+    color: navy;
+}
+
+.co2High {
+    color: red;
+}
+
+.co2Medium {
+    color: orange;
+}
+
+.co2Low {
+    color: green;
+}
+
+.humidityHigh {
+    color: blue;
+}
+
+.humidityOk {
+    color: green;
+}
+
+.humidityLow {
+    color: gray;
 }
