@@ -197,7 +197,7 @@
     position: fixed;
     top: 3em;
     bottom: 0;
-    width: 350px;
+    width: 450px;
     background-color: #3b3b3f;
     overflow-y:auto;
     overflow-x:auto;
@@ -444,18 +444,31 @@
     box-shadow: 0 4px 8px rgba(0,0,0,0.1);
 }
 
+#panel-container {
+    position: fixed;
+    right: 0;
+    top: 48px;
+    width: 550px;
+    height: 100%;
+    background-color: gray;
+    border: 1px solid #ccc;
+    z-index: 4000;
+    display: none; /* Oculto por defecto */
+}
 
+.visible-panel {
+    display: block !important; /* Se muestra al activarlo */
+    z-index: 4000;
+}
 
-
-/*Sensores temperatura*/
-
-
-/* Estado normal del botón */
+    /*Sensores temperatura*/
+    /* Estado normal del botón */
+ 
 #SensorData-button {
-    /*background-color: #f0f0f0;
+    /*background-color: #f0f0f0;*/
     border: 1px solid #ccc;
     border-radius: 4px;
-    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);*/
+    box-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
     transition: all 0.2s ease;
     cursor: pointer;
 }

@@ -11,7 +11,7 @@ class ProgressBarExtension extends BaseExtension {
         await super.load();
         console.log('ProgressBarExtension loaded.');
         if (!this.panel) {
-            this.panel = new ProgressBarPanel(this, 'bim-quality-panel', 'progress-chart');
+            this.panel = new ProgressBarPanel(this, 'bim-quality-panel', 'progress-chart', 'comboBoxId');
         }
         return true;
     }
