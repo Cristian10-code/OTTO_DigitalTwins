@@ -1,6 +1,6 @@
 {
   "Version": 1,
-  "Hash": "gU38dEJCxarbeR6mmjDPZW0DiuvA/f5BQNc2IDag5vs=",
+  "Hash": "DhdrM/ewcYsJYo2PbRkTuLjb+9lT5MzzkDgyUTpJFOY=",
   "Source": "hubsbrowser24",
   "BasePath": "_content/hubsbrowser24",
   "Mode": "Default",
@@ -16,25 +16,6 @@
     }
   ],
   "Assets": [
-    {
-      "Identity": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\botones.js",
-      "SourceId": "hubsbrowser24",
-      "SourceType": "Discovered",
-      "ContentRoot": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\",
-      "BasePath": "_content/hubsbrowser24",
-      "RelativePath": "botones.js",
-      "AssetKind": "All",
-      "AssetMode": "All",
-      "AssetRole": "Primary",
-      "AssetMergeBehavior": "PreferTarget",
-      "AssetMergeSource": "",
-      "RelatedAsset": "",
-      "AssetTraitName": "",
-      "AssetTraitValue": "",
-      "CopyToOutputDirectory": "Never",
-      "CopyToPublishDirectory": "PreserveNewest",
-      "OriginalItemSpec": "wwwroot\\botones.js"
-    },
     {
       "Identity": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\BaseExtension.js",
       "SourceId": "hubsbrowser24",

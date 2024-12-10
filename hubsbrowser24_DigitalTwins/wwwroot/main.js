@@ -1,6 +1,5 @@
 ﻿import { initViewer, loadModel } from './viewer.js';
 import { initTree } from './sidebar.js';
-import botones from './botones.js';
 
 const login = document.getElementById('login');
 try {
