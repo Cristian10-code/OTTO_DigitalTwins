@@ -28,6 +28,7 @@
     justify-content: initial;
     transform-origin: top;
     transition: width 0.3s ease; /* Transición suave para el cambio de ancho */
+
 }
 
 
@@ -41,7 +42,7 @@
     left: 5px;
     width: 60px; /* Ancho de los botones convertidos en círculos */
     height: 60px; /* Alto de los botones igual al ancho */
-    top: 20px;
+    top: 23px;
     margin-bottom: 25px;
     padding: 10px;
     border: none;
@@ -55,19 +56,24 @@
     transition: background-color 0.3s ease, width 0.3s ease; /* Agregar transición en el ancho */
 
     display: flex;
-    justify-content: center; /* Centra horizontalmente el contenido */
+    justify-content: flex-start; /* Alinea el contenido a la izquierda */
     align-items: center; /* Centra verticalmente el contenido */
+
+    gap: 10px; /* Espaciado entre el ícono y el texto */
 }
 
 #toolbar.hidden .toolbar-btn {
     width: 60px; /* Ancho reducido */
     border-radius: 50%; /* Círculo */
+
 }
 
 #toolbar:not(.hidden) .toolbar-btn {
-    width: 200px; /* Ancho normal cuando está expandido */
+    width: 208px; /* Ancho normal cuando está expandido */
     border-radius: 30px; /* Bordes más cuadrados cuando se expande */
     color: white; /* Hacemos visible el texto */
+
+    padding-left: 22px;
 }
 
 /* Hacer visible el texto dentro del botón cuando el toolbar está expandido */
@@ -91,6 +97,7 @@
 
 /* Estilos para los íconos dentro de los botones */
 .toolbar-btn i {
+
     color: white; /* Color del ícono */
     font-size: 1.5em; /* Tamaño del ícono */
     transition: transform 0.3s ease; /* Efecto para animar el ícono */

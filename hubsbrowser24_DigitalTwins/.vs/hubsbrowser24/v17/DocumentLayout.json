@@ -1,18 +1,34 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\",
+  "WorkspaceRootPath": "C:\\Users\\sarmientoc\\Documents\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|c:\\users\\bayron.cuesta\\onedrive - aecom\\documentos\\github\\otto_digitaltwins\\hubsbrowser24_digitaltwins\\wwwroot\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|solutionrelative:wwwroot\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+      "AbsoluteMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|c:\\users\\sarmientoc\\documents\\github\\otto_digitaltwins\\hubsbrowser24_digitaltwins\\wwwroot\\extensions\\progressbarpanel.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|solutionrelative:wwwroot\\extensions\\progressbarpanel.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|c:\\users\\bayron.cuesta\\onedrive - aecom\\documentos\\github\\otto_digitaltwins\\hubsbrowser24_digitaltwins\\wwwroot\\main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|c:\\users\\sarmientoc\\documents\\github\\otto_digitaltwins\\hubsbrowser24_digitaltwins\\wwwroot\\main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|solutionrelative:wwwroot\\main.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|c:\\users\\bayron.cuesta\\onedrive - aecom\\documentos\\github\\otto_digitaltwins\\hubsbrowser24_digitaltwins\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|c:\\users\\sarmientoc\\documents\\github\\otto_digitaltwins\\hubsbrowser24_digitaltwins\\wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|solutionrelative:wwwroot\\index.html||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|c:\\users\\sarmientoc\\documents\\github\\otto_digitaltwins\\hubsbrowser24_digitaltwins\\wwwroot\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|solutionrelative:wwwroot\\main.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|c:\\users\\sarmientoc\\documents\\github\\otto_digitaltwins\\hubsbrowser24_digitaltwins\\wwwroot\\extensions\\materialextension.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|solutionrelative:wwwroot\\extensions\\materialextension.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|c:\\users\\sarmientoc\\documents\\github\\otto_digitaltwins\\hubsbrowser24_digitaltwins\\wwwroot\\extensions\\materialpanel.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|solutionrelative:wwwroot\\extensions\\materialpanel.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|c:\\users\\sarmientoc\\documents\\github\\otto_digitaltwins\\hubsbrowser24_digitaltwins\\wwwroot\\extensions\\progressbarextension.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{B0C3021D-6FA7-49EE-B42A-E668C761A323}|hubsbrowser24.csproj|solutionrelative:wwwroot\\extensions\\progressbarextension.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     }
   ],
   "DocumentGroupContainers": [
@@ -22,21 +38,68 @@
       "DocumentGroups": [
         {
           "DockedWidth": 496,
-          "SelectedChildIndex": 1,
+          "SelectedChildIndex": 3,
           "Children": [
             {
               "$type": "Bookmark",
-              "Name": "ST:128:0:{75188d03-9892-4ae2-abf1-207126247ce5}"
+              "Name": "ST:0:0:{1c4feeaa-4718-4aa9-859d-94ce25d182ba}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{aa2115a1-9712-457b-9047-dbb71ca2cdd2}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "main.css",
+              "DocumentMoniker": "C:\\Users\\sarmientoc\\Documents\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\main.css",
+              "RelativeDocumentMoniker": "wwwroot\\main.css",
+              "ToolTip": "C:\\Users\\sarmientoc\\Documents\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\main.css",
+              "RelativeToolTip": "wwwroot\\main.css",
+              "ViewState": "AQIAAAwAAAAAAAAAAAAkwC4AAAASAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
+              "WhenOpened": "2024-12-10T14:07:49.928Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MaterialPanel.js",
+              "DocumentMoniker": "C:\\Users\\sarmientoc\\Documents\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\MaterialPanel.js",
+              "RelativeDocumentMoniker": "wwwroot\\extensions\\MaterialPanel.js",
+              "ToolTip": "C:\\Users\\sarmientoc\\Documents\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\MaterialPanel.js",
+              "RelativeToolTip": "wwwroot\\extensions\\MaterialPanel.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAAAAAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-10T13:18:05.745Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MaterialExtension.js",
+              "DocumentMoniker": "C:\\Users\\sarmientoc\\Documents\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\MaterialExtension.js",
+              "RelativeDocumentMoniker": "wwwroot\\extensions\\MaterialExtension.js",
+              "ToolTip": "C:\\Users\\sarmientoc\\Documents\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\MaterialExtension.js",
+              "RelativeToolTip": "wwwroot\\extensions\\MaterialExtension.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACIAAABUAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-10T13:17:40.461Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
               "DocumentIndex": 2,
               "Title": "index.html",
-              "DocumentMoniker": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\index.html",
+              "DocumentMoniker": "C:\\Users\\sarmientoc\\Documents\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\index.html",
               "RelativeDocumentMoniker": "wwwroot\\index.html",
-              "ToolTip": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\index.html",
+              "ToolTip": "C:\\Users\\sarmientoc\\Documents\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\index.html",
               "RelativeToolTip": "wwwroot\\index.html",
-              "ViewState": "AQIAABsAAAAAAAAAAAAAAD8AAAAfAAAA",
+              "ViewState": "AQIAAAIAAAAAAAAAAAAkwBsAAAAiAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001512|",
               "WhenOpened": "2024-12-09T19:49:11.965Z",
               "EditorCaption": ""
@@ -50,27 +113,40 @@
             {
               "$type": "Document",
               "DocumentIndex": 0,
-              "Title": "main.js",
-              "DocumentMoniker": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\main.js",
-              "RelativeDocumentMoniker": "wwwroot\\main.js",
-              "ToolTip": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\main.js",
-              "RelativeToolTip": "wwwroot\\main.js",
-              "ViewState": "AQIAADIAAAAAAAAAAAAQwAAAAAAAAAAA",
+              "Title": "ProgressBarPanel.js",
+              "DocumentMoniker": "C:\\Users\\sarmientoc\\Documents\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\ProgressBarPanel.js",
+              "RelativeDocumentMoniker": "wwwroot\\extensions\\ProgressBarPanel.js",
+              "ToolTip": "C:\\Users\\sarmientoc\\Documents\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\ProgressBarPanel.js",
+              "RelativeToolTip": "wwwroot\\extensions\\ProgressBarPanel.js",
+              "ViewState": "AQIAAIQAAAAAAAAAAAAIwLoAAAAoAAAA",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
-              "WhenOpened": "2024-12-09T21:07:55.925Z",
+              "WhenOpened": "2024-12-10T13:21:39.978Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
-              "Title": "main.css",
-              "DocumentMoniker": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\main.css",
-              "RelativeDocumentMoniker": "wwwroot\\main.css",
-              "ToolTip": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\main.css",
-              "RelativeToolTip": "wwwroot\\main.css",
-              "ViewState": "AQIAAIABAAAAAAAAAAAAAKoAAAAAAAAA",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
-              "WhenOpened": "2024-12-09T16:13:44.859Z",
+              "DocumentIndex": 6,
+              "Title": "ProgressBarExtension.js",
+              "DocumentMoniker": "C:\\Users\\sarmientoc\\Documents\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\ProgressBarExtension.js",
+              "RelativeDocumentMoniker": "wwwroot\\extensions\\ProgressBarExtension.js",
+              "ToolTip": "C:\\Users\\sarmientoc\\Documents\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\ProgressBarExtension.js",
+              "RelativeToolTip": "wwwroot\\extensions\\ProgressBarExtension.js",
+              "ViewState": "AQIAAAAAAAAAAAAAAAAAACMAAAAAAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-10T13:19:47.508Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "main.js",
+              "DocumentMoniker": "C:\\Users\\sarmientoc\\Documents\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\main.js",
+              "RelativeDocumentMoniker": "wwwroot\\main.js",
+              "ToolTip": "C:\\Users\\sarmientoc\\Documents\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\main.js",
+              "RelativeToolTip": "wwwroot\\main.js",
+              "ViewState": "AQIAAGoAAAAAAAAAAAAgwHwAAAAYAAAA",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
+              "WhenOpened": "2024-12-09T21:07:55.925Z",
               "EditorCaption": ""
             }
           ]
