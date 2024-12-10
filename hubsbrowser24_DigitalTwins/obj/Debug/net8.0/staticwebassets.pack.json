@@ -1,10 +1,6 @@
 {
   "Files": [
     {
-      "Id": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\botones.js",
-      "PackagePath": "staticwebassets\\botones.js"
-    },
-    {
       "Id": "C:\\Users\\bayron.cuesta\\OneDrive - AECOM\\Documentos\\GitHub\\OTTO_DigitalTwins\\hubsbrowser24_DigitalTwins\\wwwroot\\extensions\\BaseExtension.js",
       "PackagePath": "staticwebassets\\extensions\\BaseExtension.js"
     },

@@ -55,10 +55,40 @@
         <div id="tree"></div>
     </div>
 
-    <div id="toolbarDT" class="bar-DT">
+    <!--<div id="toolbarDT" class="bar-DT">
         <button class="toolbarDT-btn" id="toolbarDigitaltwins-btn">
             <i class="fas fa-building"></i>
         </button>
+    </div>-->
+
+
+    <div id="sensor-panel">
+        <h3 style="text-align: center; margin-bottom: 20px;">Sensor Data</h3>
+
+        <!-- Contenedor de Temperatura -->
+        <div class="chart-container">
+            <h5 style="text-align: center;">Temperature [°C]</h5>
+            <canvas id="temperature-chart"></canvas>
+        </div>
+        <hr style="width: 90%; border-color: rgba(255, 196, 0, 0.5); margin: 10px 0;">
+
+        <!-- Contenedor de CO2 -->
+        <div class="chart-container">
+            <h5 style="text-align: center;">CO2 Levels [ppm]</h5>
+            <canvas id="co2-chart"></canvas>
+        </div>
+        <hr style="width: 90%; border-color: rgba(255, 196, 0, 0.5); margin: 10px 0;">
+
+        <!-- Contenedor de Humedad -->
+        <div class="chart-container">
+            <h5 style="text-align: center;">Humidity [%]</h5>
+            <canvas id="humidity-chart"></canvas>
+        </div>
+
+        <!-- Línea de estado -->
+        <p id="sensor-status" style="text-align: center; margin-top: 20px; color: rgba(255, 196, 0, 1);">
+            Last updated: Temperature: -- °C, CO2: -- ppm, Humidity: -- %
+        </p>
     </div>
 
 
@@ -72,14 +102,103 @@
             <span>© Copyright all rights reserved</span>
         </div>
     </div>
+
+
+
     <script src="https://cdnjs.cloudflare.com/ajax/libs/microsoft-signalr/5.0.9/signalr.min.js"></script>
     <script src="https://developer.api.autodesk.com/modelderivative/v2/viewers/7.*/viewer3D.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.21/lodash.min.js"></script>
     <script src="https://unpkg.com/inspire-tree@4.3.1/dist/inspire-tree.js"></script>
     <script src="https://unpkg.com/inspire-tree-dom@4.0.6/dist/inspire-tree-dom.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-adapter-date-fns"></script>
+    <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-streaming"></script>
     <script src="extensions/ProgressBarExtension.js" type="module"></script>
     <script src="main.js" type="module" defer></script>
+
+
+    <script>
+        let temperatureChart, co2Chart, humidityChart;
+
+        function createStreamingChart(ctx, label, borderColor, backgroundColor) {
+            return new Chart(ctx, {
+                type: 'line',
+                data: {
+                    datasets: [{
+                        label: label,
+                        borderColor: borderColor,
+                        backgroundColor: backgroundColor,
+                        fill: true,
+                        data: [] // Los datos se agregarán en tiempo real
+                    }]
+                },
+                options: {
+                    responsive: true,
+                    maintainAspectRatio: false,
+                    scales: {
+                        x: {
+                            type: 'realtime', // Escala de tiempo en tiempo real
+                            realtime: {
+                                duration: 10000, // Muestra los últimos 10 segundos
+                                refresh: 2000, // Refresca cada 2 segundos
+                                delay: 2000, // Retraso para sincronización
+                                onRefresh: chart => {
+                                    const now = Date.now();
+                                    const temperature = Math.random() * 30 + 10; // Simulación de temperatura
+                                    const co2 = Math.random() * 1000 + 300; // Simulación de CO2
+                                    const humidity = Math.random() * 100; // Simulación de humedad
+
+                                    if (chart.canvas.id === 'temperature-chart') {
+                                        chart.data.datasets[0].data.push({ x: now, y: temperature });
+                                    } else if (chart.canvas.id === 'co2-chart') {
+                                        chart.data.datasets[0].data.push({ x: now, y: co2 });
+                                    } else if (chart.canvas.id === 'humidity-chart') {
+                                        chart.data.datasets[0].data.push({ x: now, y: humidity });
+                                    }
+
+                                    // Actualizar el estado del sensor
+                                    document.getElementById('sensor-status').textContent =
+                                        `Last update: Temperature: ${temperature.toFixed(2)}°C, CO2: ${co2.toFixed(2)} ppm, Humidity: ${humidity.toFixed(2)} %`;
+                                }
+                            }
+                        },
+                        y: {
+                            beginAtZero: true // Escala del eje Y comienza en 0
+                        }
+                    },
+                    plugins: {
+                        legend: {
+                            display: true,
+                            position: 'top'
+                        }
+                    }
+                }
+            });
+        }
+
+        function initializeStreamingCharts() {
+            const tempCtx = document.getElementById('temperature-chart').getContext('2d');
+            const co2Ctx = document.getElementById('co2-chart').getContext('2d');
+            const humidityCtx = document.getElementById('humidity-chart').getContext('2d');
+
+            // Destruir gráficos existentes si es necesario
+            if (temperatureChart) temperatureChart.destroy();
+            if (co2Chart) co2Chart.destroy();
+            if (humidityChart) humidityChart.destroy();
+
+            // Crear gráficos
+            temperatureChart = createStreamingChart(tempCtx, 'Temperature [°C]', 'rgba(255, 99, 132, 1)', 'rgba(255, 99, 132, 0.2)');
+            co2Chart = createStreamingChart(co2Ctx, 'CO2 Levels [ppm]', 'rgba(54, 162, 235, 1)', 'rgba(54, 162, 235, 0.2)');
+            humidityChart = createStreamingChart(humidityCtx, 'Humidity [%]', 'rgba(75, 192, 192, 1)', 'rgba(75, 192, 192, 0.2)');
+        }
+
+        // Inicializa los gráficos y activa el streaming
+        initializeStreamingCharts();
+    </script>
+
+
+
+
 </body>
 
 </html>

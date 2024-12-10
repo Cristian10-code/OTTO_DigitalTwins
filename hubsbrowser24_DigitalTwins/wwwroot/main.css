@@ -440,6 +440,21 @@
 
 
 
+
+
+#viewer {
+    position: absolute;
+    z-index: 1; /* Asegura que el visor no cubra el panel */
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
+
+
+
 /*Sensores temperatura*/
 
 
@@ -605,4 +620,42 @@
 
 .humidityLow {
     color: gray;
+}
+
+
+
+/* Ajustes del panel de sensores */
+#sensor-panel {
+    position: fixed;
+    top: 48px; /* Justo debajo del header */
+    right: 0;
+    width: 600px;
+    height: calc(100vh - 50px); /* Altura completa menos el header */
+    background-color: #1e1e1e;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px; /* Ajustado para dejar más espacio */
+    box-shadow: -2px 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+}
+
+/* Ajustes de cada contenedor de gráfica */
+.chart-container {
+    width: 95%; /* Más espacio para evitar cortes */
+    height: calc((100% - 60px) / 4); /* Altura proporcional dinámica */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 10px; /* Espaciado entre gráficas */
+}
+
+#sensor-panel canvas {
+    width: 100%; /* Ocupa todo el contenedor */
+    height: 100%; /* Altura completa dinámica */
+    background-color: rgba(30, 30, 30, 0.8);
+    border-radius: 8px;
 }
