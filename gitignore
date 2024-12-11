@@ -1,0 +1,11 @@
+# Archivos generados automáticamente por Visual Studio
+.vs/
+bin/
+obj/
+*.dll
+*.exe
+*.pdb
+*.cache
+*.json
+*.suo
+*.v2
