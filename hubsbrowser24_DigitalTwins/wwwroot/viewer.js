@@ -12,6 +12,8 @@ import './extensions/ProgressBarExtension.js';
 import './extensions/EmptyParamsExtension.js';
 import './extensions/MaterialExtension.js';
 
+
+
 async function getAccessToken(callback) {
     try {
         const resp = await fetch('/api/auth/token');
