@@ -189,7 +189,8 @@ class SensorDataExtension extends BaseExtension {
 
         // Registrar evento de clic para seleccionar el elemento y mostrar/ocultar el markup
         newPushpin.addEventListener('click', () => {
-            this.viewer.select([dbId]); // Seleccionar el elemento
+            this.viewer.isolate([dbId]); // Seleccionar el elemento
+            this.viewer.select([dbId]);
             if (this._activeSensors.has(dbId)) {
                 this._activeSensors.delete(dbId);
                 this.hideMarkup(dbId);
@@ -250,7 +251,8 @@ class SensorDataExtension extends BaseExtension {
 
         // Registrar eventos de clic y previsualización
         pushpin.addEventListener('click', () => {
-            this.viewer.select([dbId]); // Seleccionar el elemento
+            this.viewer.isolate([dbId]); // Seleccionar el elemento
+            this.viewer.select([dbId]);
             if (this._activeSensors.has(dbId)) {
                 this._activeSensors.delete(dbId);
                 this.hideMarkup(dbId);
@@ -344,7 +346,8 @@ class SensorDataExtension extends BaseExtension {
         label.style.display = 'none'; // Mantenerlo oculto por defecto
 
         label.addEventListener('click', () => {
-            this.viewer.select([dbId]); // Seleccionar el elemento
+            this.viewer.isolate([dbId]); // Seleccionar el elemento
+            this.viewer.select([dbId]);
             console.log(`Elemento con dbId ${dbId} seleccionado.`);
         });
 

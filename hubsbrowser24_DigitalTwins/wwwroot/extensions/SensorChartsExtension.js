@@ -1,4 +1,5 @@
 ﻿import { BaseExtension } from './BaseExtension.js';
+import { SensorDataClient } from './SensorDataClient.js';
 
 class SensorChartsExtension extends BaseExtension {
     constructor(viewer, options) {
@@ -7,16 +8,22 @@ class SensorChartsExtension extends BaseExtension {
         this.temperatureChart = null; // Gráfico de temperatura
         this.co2Chart = null; // Gráfico de CO2
         this.humidityChart = null; // Gráfico de humedad
+        this.selectedSensorId = null; // Sensor actualmente seleccionado
     }
 
     async load() {
         super.load();
         console.log('SensorChartsExtension loaded');
 
+        // Suscribirse al evento de selección de elementos
+        this.viewer.addEventListener(Autodesk.Viewing.SELECTION_CHANGED_EVENT, (event) => {
+            this.onElementSelected(event);
+        });
+
         // Cargar la librería Chart.js
         await this.loadScript('https://cdn.jsdelivr.net/npm/chart.js', 'Chart');
 
-        // Crear el panel unificado
+        // Crear el panel de gráficas
         this.createChartsPanel();
 
         // Actualizar los datos periódicamente
@@ -26,6 +33,33 @@ class SensorChartsExtension extends BaseExtension {
 
         return true;
     }
+
+    onElementSelected(event) {
+        const dbIds = event.dbIdArray; // Lista de elementos seleccionados
+        if (dbIds.length === 0) {
+            this.selectedSensorId = null;
+            this.clearCharts();
+            document.getElementById('sensor-status').textContent = "No element selected.";
+            return;
+        }
+
+        const selectedDbId = dbIds[0]; // Seleccionar el primer elemento
+        console.log(`Elemento seleccionado: ${selectedDbId}`);
+
+        const sensorData = SensorDataClient.getSensorData(selectedDbId);
+        if (!sensorData || sensorData.length === 0) {
+            console.warn(`El elemento seleccionado no tiene datos de sensores: ${selectedDbId}`);
+            this.selectedSensorId = null;
+            this.clearCharts();
+            document.getElementById('sensor-status').textContent = `No sensor data for element ${selectedDbId}`;
+        } else {
+            this.selectedSensorId = selectedDbId;
+            this.updateSensorData();
+        }
+    }
+
+
+
 
     unload() {
         super.unload();
@@ -110,7 +144,6 @@ class SensorChartsExtension extends BaseExtension {
     createChart(canvasId, label, borderColor, backgroundColor) {
         const canvas = document.getElementById(canvasId);
 
-        // Verificar si ya existe un gráfico en el canvas y destruirlo
         if (canvas.chartInstance) {
             canvas.chartInstance.destroy();
         }
@@ -153,7 +186,6 @@ class SensorChartsExtension extends BaseExtension {
             }
         });
 
-        // Asocia el gráfico al canvas para futuras referencias
         canvas.chartInstance = chart;
 
         return chart;
@@ -161,31 +193,68 @@ class SensorChartsExtension extends BaseExtension {
 
 
 
+    // Método para seleccionar un sensor
+    selectSensor(sensorId) {
+        this.selectedSensorId = sensorId;
+        console.log(`Sensor seleccionado: ${sensorId}`);
+
+        // Actualizar gráficos al seleccionar un sensor
+        this.updateSensorData();
+    }
 
 
     updateSensorData() {
-        const now = new Date(); // Hora actual como objeto Date
+        if (!this.selectedSensorId) {
+            console.warn("No hay un sensor seleccionado.");
+            this.clearCharts();
+            document.getElementById('sensor-status').textContent = "No sensor selected.";
+            return;
+        }
 
-        // Generar datos aleatorios
-        const temperature = Math.random() * 30 + 10; // Temperatura
-        const co2 = Math.random() * 1000 + 300; // CO2
-        const humidity = Math.random() * 100; // Humedad
+        // Obtener datos del sensor seleccionado
+        const sensorData = SensorDataClient.getSensorData(this.selectedSensorId);
 
-        // Agregar datos y actualizar gráficos
-        this.addDataToChart(this.temperatureChart, now, temperature);
-        this.addDataToChart(this.co2Chart, now, co2);
-        this.addDataToChart(this.humidityChart, now, humidity);
+        if (!sensorData) {
+            console.warn(`No se encontraron datos para el sensor con ID: ${this.selectedSensorId}`);
+            this.clearCharts();
+            document.getElementById('sensor-status').textContent = `No data for sensor ${this.selectedSensorId}`;
+            return;
+        }
 
-        // Actualizar estado del sensor
+        const now = new Date();
+
+        // Añadir datos a las gráficas
+        if (sensorData.temperature !== null) this.addDataToChart(this.temperatureChart, now, sensorData.temperature);
+        if (sensorData.co2 !== null) this.addDataToChart(this.co2Chart, now, sensorData.co2);
+        if (sensorData.humidity !== null) this.addDataToChart(this.humidityChart, now, sensorData.humidity);
+
+        // Actualizar el estado del sensor
         document.getElementById('sensor-status').textContent =
-            `Last update: Temperature: ${temperature.toFixed(2)}°C, CO2: ${co2.toFixed(2)} ppm, Humidity: ${humidity.toFixed(2)} %`;
+            `Element ${this.selectedSensorId}: Temp: ${sensorData.temperature}°C, CO2: ${sensorData.co2} ppm, Hum: ${sensorData.humidity}%`;
     }
 
-    addDataToChart(chart, label, value) {
-        chart.data.labels.push(label); // Etiqueta de tiempo
-        chart.data.datasets[0].data.push(value); // Valor
 
-        // Limitar a 30 puntos
+
+    clearCharts() {
+        this.temperatureChart.data.labels = [];
+        this.temperatureChart.data.datasets[0].data = [];
+        this.temperatureChart.update();
+
+        this.co2Chart.data.labels = [];
+        this.co2Chart.data.datasets[0].data = [];
+        this.co2Chart.update();
+
+        this.humidityChart.data.labels = [];
+        this.humidityChart.data.datasets[0].data = [];
+        this.humidityChart.update();
+    }
+
+
+    addDataToChart(chart, label, value) {
+        chart.data.labels.push(label);
+        chart.data.datasets[0].data.push(value);
+
+        // Limitar los datos a los últimos 30 puntos
         if (chart.data.labels.length > 30) {
             chart.data.labels.shift();
             chart.data.datasets[0].data.shift();
@@ -193,6 +262,7 @@ class SensorChartsExtension extends BaseExtension {
 
         chart.update();
     }
+
 
     async loadScript(url, libraryName) {
         if (!window[libraryName]) {
@@ -202,6 +272,7 @@ class SensorChartsExtension extends BaseExtension {
             await new Promise((resolve) => (script.onload = resolve));
         }
     }
+
 }
 
 Autodesk.Viewing.theExtensionManager.registerExtension('SensorChartsExtension', SensorChartsExtension);
