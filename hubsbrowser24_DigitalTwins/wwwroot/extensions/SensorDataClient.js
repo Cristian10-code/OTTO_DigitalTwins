@@ -25,6 +25,15 @@
         return sensor.historicalData || []; // Devuelve datos históricos si existen
     }
 
+    static getSensorData(dbId) {
+        const sensor = this.data.find(item => item.dbId === dbId);
+        if (!sensor) {
+            console.warn(`No se encontraron datos para el elemento con ID: ${dbId}`);
+            return null; // Devuelve null si no hay datos
+        }
+        return sensor.data; // Devuelve los datos actuales del sensor
+    }
+
 
 
 
