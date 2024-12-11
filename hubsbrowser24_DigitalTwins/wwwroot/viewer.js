@@ -11,7 +11,7 @@ import './extensions/SensorListExtension.js';
 import './extensions/ProgressBarExtension.js';
 import './extensions/EmptyParamsExtension.js';
 import './extensions/MaterialExtension.js';
-
+import './extensions/SensorChartsExtension.js';
 
 
 async function getAccessToken(callback) {
@@ -31,7 +31,9 @@ export function initViewer(container) {
     return new Promise(function (resolve, reject) {
         Autodesk.Viewing.Initializer({ env: 'AutodeskProduction', getAccessToken }, function () {
             const config = {
-                extensions: ['Autodesk.DocumentBrowser', 'LoggerExtension', 'SummaryExtension', 'HistogramExtension', 'DataGridExtension', 'SensorDataExtension', 'GeorefExtension', 'SensorDetailExtension', 'SensorHeatmapsExtension', 'SensorListExtension', 'ProgressBarExtension', 'EmptyParamsExtension', 'MaterialExtension']
+
+                extensions: ['Autodesk.DocumentBrowser', 'LoggerExtension', 'SummaryExtension', 'HistogramExtension', 'DataGridExtension', 'SensorDataExtension', 'GeorefExtension', 'SensorDetailExtension', 'SensorHeatmapsExtension', 'SensorListExtension', 'ProgressBarExtension', 'EmptyParamsExtension', 'MaterialExtension', 'SensorChartsExtension']
+
             };
             const viewer = new Autodesk.Viewing.GuiViewer3D(container, config);
             viewer.start();
