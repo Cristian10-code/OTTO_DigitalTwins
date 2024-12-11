@@ -136,3 +136,17 @@ document.addEventListener('DOMContentLoaded', () => {
         console.error("Botón o panel no encontrado.");
     }
 })
+document.addEventListener("DOMContentLoaded", () => {
+    const budgetButton = document.getElementById("budget-btn");
+    const panelContainer = document.getElementById("panel-container");
+
+    if (budgetButton && panelContainer) {
+        budgetButton.addEventListener("click", () => {
+            const isVisible = panelContainer.style.display === "block";
+            panelContainer.style.display = isVisible ? "none" : "block";
+        });
+    } else {
+        console.error("No se encontró el botón o el contenedor del panel.");
+    }
+});
+
