@@ -117,10 +117,10 @@
 
 
 /* Estilos del toolbar fijo en el lado derecho */
-#toolbarDT {
+#toolbardt {
     position: fixed; /* Fijo en la pantalla */
     top: 48px; /* Empieza desde la parte superior */
-    right: 0; /* Pegado al lado derecho */
+    right: -80px; /* Pegado al lado derecho */
     display: flex;
     flex-direction: column; /* Alineación vertical de los botones */
     background-color: #2c2c2f; /* Fondo oscuro */
@@ -130,10 +130,11 @@
     z-index: 3000; /* Siempre visible y sobre otros elementos */
     justify-content: flex-start; /* Botones alineados al inicio */
     padding-top: 40px; /* Espacio superior para el primer botón */
+    transition: right 0.3s ease-in-out;
 }
 
 /* Estilos de los botones dentro del toolbar */
-.toolbarDT-btn {
+.toolbardt-btn {
     width: 60px; /* Ancho del botón circular */
     height: 60px; /* Alto igual al ancho para mantener forma circular */
     margin-bottom: 20px; /* Espaciado entre botones */
@@ -151,19 +152,19 @@
 }
 
 /* Efecto hover en los botones */
-.toolbarDT-btn:hover {
+.toolbardt-btn:hover {
     background-color: #008768; /* Fondo verde oscuro al pasar el ratón */
     transform: scale(1.1); /* Escala ligeramente el botón */
 }
 
 /* Estilo del ícono dentro del botón */
-.toolbarDT-btn i {
+.toolbardt-btn i {
     color: white; /* Ícono blanco */
     font-size: 1.5em; /* Ajuste del tamaño del ícono */
     transition: transform 0.3s ease; /* Animación al hover */
 }
 
-.toolbarDT-btn:hover i {
+.toolbardt-btn:hover i {
     transform: scale(1.2); /* El ícono crece ligeramente al pasar */
 }
 
@@ -171,6 +172,9 @@
 /* Cuando el botón menu-btn se presiona */
 #toolbar.bar-DT {
     width: 75px; /* Reducir el 70% del tamaño del toolbar */
+}
+#toolbardt.visible-dt-panel {
+    right: 0;
 }
 
 
@@ -453,6 +457,7 @@
     border: 1px solid #ccc;
     z-index: 4000;
     display: none; /* Oculto por defecto */
+    transition: right 0.3s ease-in-out;
 }
 
 .visible-panel {
@@ -650,19 +655,24 @@
 /* Ajustes del panel de sensores */
 #sensor-panel {
     position: fixed;
-    top: 48px; /* Justo debajo del header */
-    right: 0;
+    top: 48px; /* Debajo del header */
+    right:-650px;
     width: 600px;
-    height: calc(100vh - 50px); /* Altura completa menos el header */
+    height: calc(100% - 48px); /* Ajuste dinámico de la altura */
     background-color: #1e1e1e;
     color: white;
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
     align-items: center;
-    padding: 10px; /* Ajustado para dejar más espacio */
+    padding: 10px;
     box-shadow: -2px 0 10px rgba(0, 0, 0, 0.5);
     z-index: 1000;
+    transition: right 0.3s ease-in-out; /* Transición para animar la propiedad right */
+}
+
+#sensor-panel.visible-sensor-panel {
+    right: 75px; /* Visible */
 }
 
 /* Ajustes de cada contenedor de gráfica */
