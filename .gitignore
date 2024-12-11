@@ -9,3 +9,5 @@ obj/
 *.json
 *.suo
 *.v2
+/hubsbrowser24_DigitalTwins/.vs/hubsbrowser24/v17/DocumentLayout.json
+/hubsbrowser24_DigitalTwins/.vs/hubsbrowser24/v17/.suo
