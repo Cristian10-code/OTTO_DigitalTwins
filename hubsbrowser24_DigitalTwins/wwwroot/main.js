@@ -150,3 +150,46 @@ document.addEventListener("DOMContentLoaded", () => {
     }
 });
 
+const digitalBtn = document.getElementById("digital-btn");
+const toolbarDTPanel = document.getElementById("toolbardt");
+
+digitalBtn.onclick = () => {
+    toolbarDTPanel.classList.toggle("visible-dt-panel");
+    console.log("¡Panel toggled!");
+};
+
+document.addEventListener("DOMContentLoaded", () => {
+    const digitalBtn = document.getElementById("digital-btn");
+    const toolbarDTPanel = document.getElementById("toolbardt");
+
+    if (digitalBtn && toolbarDTPanel) {
+        digitalBtn.onclick = () => {
+            toolbarDTPanel.classList.toggle("visible-dt-panel");
+            console.log("¡Panel toggled!");
+        };
+    } else {
+        console.error("Botón o panel no encontrado.");
+    }
+});
+const toolbarDTBtn = document.getElementById("toolbardigitaltwins-btn");
+const sensorPanel = document.getElementById("sensor-panel");
+
+toolbarDTBtn.onclick = () => {
+    sensorPanel.classList.toggle("visible-sensor-panel");
+    console.log("¡Panel toggled!");
+};
+
+document.addEventListener("DOMContentLoaded", () => {
+    const toolbarDTBtn = document.getElementById("toolbardigitaltwins-btn");
+    const sensorPanel = document.getElementById("sensor-panel");
+
+    if (toolbarDTBtn && sensorPanel) {
+        toolbarDTBtn.onclick = () => {
+            sensorPanel.classList.toggle("visible-sensor-panel");
+            console.log("¡Panel toggled!");
+        };
+    } else {
+        console.error("Botón o panel no encontrado.");
+    }
+});
+
