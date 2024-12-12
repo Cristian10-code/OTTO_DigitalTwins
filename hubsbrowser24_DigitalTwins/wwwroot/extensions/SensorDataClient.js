@@ -4,7 +4,7 @@
     // Obtener los datos de sensores según un canal específico (temperatura, CO2, humedad)
     static getSensorData(channel) {
         if (!channel) {
-            console.warn("Canal no especificado. Retornando todos los datos.");
+            /*console.warn("Canal no especificado. Retornando todos los datos.");*/
             return this.data;
         }
 
@@ -18,7 +18,7 @@
     static getSensorData(sensorId) {
         const sensor = this.data.find(item => item.dbId === sensorId);
         if (!sensor) {
-            console.warn(`No se encontraron datos históricos para el sensor con ID: ${sensorId}`);
+            /*console.warn(`No se encontraron datos históricos para el sensor con ID: ${sensorId}`);*/
             return [];
         }
 
@@ -28,7 +28,7 @@
     static getSensorData(dbId) {
         const sensor = this.data.find(item => item.dbId === dbId);
         if (!sensor) {
-            console.warn(`No se encontraron datos para el elemento con ID: ${dbId}`);
+            /*console.warn(`No se encontraron datos para el elemento con ID: ${dbId}`);*/
             return null; // Devuelve null si no hay datos
         }
         return sensor.data; // Devuelve los datos actuales del sensor
