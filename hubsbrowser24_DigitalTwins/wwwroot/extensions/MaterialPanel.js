@@ -1,7 +1,7 @@
 ﻿const DATAGRID_CONFIG = {
     requiredProps: ['Structural Material', 'Volume', 'Width', 'Length', 'Foundation Thickness'],
     columns: [
-        { title: 'Structural Material', field: 'material', width: 150, headerSort: false },
+        { title: 'Structural Material', field: 'material', width: 300, headerSort: false },
         {
             title: 'Volume',
             field: 'volume',
@@ -35,6 +35,8 @@ export class MaterialPanel {
         this.viewer = viewer;
         this.table = null;
         this.container = null;
+        this.materialColorMap = new Map(); // Mapa global para rastrear colores de materiales
+        this.colorIndex = 0; // Índice para generar colores únicos
     }
 
     initialize(containerId) {
@@ -63,6 +65,9 @@ export class MaterialPanel {
             console.error('MaterialPanel no ha sido inicializado correctamente.');
             return;
         }
+
+        // Limpiar colores existentes antes de aplicar nuevos
+        this.viewer.clearThemingColors();
 
         model.getBulkProperties(dbids, DATAGRID_CONFIG.requiredProps, (results) => {
             const groupedData = {};
@@ -107,13 +112,16 @@ export class MaterialPanel {
             console.warn(`Número de elementos con volumen calculado: ${missingVolumeCount}`);
 
             const materials = Object.keys(groupedData);
-            const colors = this.generateColors(materials.length);
+            const colors = this.generateUniqueColors(materials);
 
             materials.forEach((material, index) => {
-                const color = `rgb(${colors[index].r}, ${colors[index].g}, ${colors[index].b})`;
+                const color = colors[index];
                 groupedData[material].color = color;
+
+                // Aplicar colores a los dbIds correspondientes
                 groupedData[material].dbids.forEach(dbId => {
-                    this.viewer.setThemingColor(dbId, new THREE.Vector4(colors[index].r / 255, colors[index].g / 255, colors[index].b / 255, 1));
+                    const [r, g, b] = color.match(/\d+/g).map(Number); // Extraer valores RGB del color
+                    this.viewer.setThemingColor(dbId, new THREE.Vector4(r / 255, g / 255, b / 255, 1));
                 });
             });
 
@@ -128,23 +136,39 @@ export class MaterialPanel {
         });
     }
 
-    generateColors(count) {
+    generateUniqueColors(materials) {
         const colors = [];
-        for (let i = 0; i < count; i++) {
-            const hue = (i * 360) / count;
-            colors.push(this.hsvToRgb(hue, 100, 100));
-        }
+        const totalMaterials = materials.length;
+
+        materials.forEach((material, index) => {
+            if (!this.materialColorMap.has(material)) {
+                // Calcular un hue único basado en el índice
+                const hue = (index * 360) / totalMaterials; // Distribuir colores uniformemente en 360 grados
+                const color = this.hsvToRgb(hue, 80, 90); // Saturación y brillo ajustados para colores vibrantes
+                const rgbColor = `rgb(${color.r}, ${color.g}, ${color.b})`;
+
+                this.materialColorMap.set(material, rgbColor); // Asignar color único al material
+            }
+
+            colors.push(this.materialColorMap.get(material)); // Recuperar el color asignado
+        });
+
         return colors;
     }
 
     hsvToRgb(h, s, v) {
+        s /= 100;
+        v /= 100;
+
         let r, g, b;
-        const i = Math.floor(h / 60);
+
+        const i = Math.floor(h / 60) % 6;
         const f = h / 60 - i;
-        const p = v * (1 - s / 100);
-        const q = v * (1 - f * s / 100);
-        const t = v * (1 - (1 - f) * s / 100);
-        switch (i % 6) {
+        const p = v * (1 - s);
+        const q = v * (1 - f * s);
+        const t = v * (1 - (1 - f) * s);
+
+        switch (i) {
             case 0: r = v, g = t, b = p; break;
             case 1: r = q, g = v, b = p; break;
             case 2: r = p, g = v, b = t; break;
@@ -152,7 +176,12 @@ export class MaterialPanel {
             case 4: r = t, g = p, b = v; break;
             case 5: r = v, g = p, b = q; break;
         }
-        return { r: Math.round(r * 255), g: Math.round(g * 255), b: Math.round(b * 255) };
+
+        return {
+            r: Math.round(r * 255),
+            g: Math.round(g * 255),
+            b: Math.round(b * 255)
+        };
     }
 
     setVisible(visible) {
