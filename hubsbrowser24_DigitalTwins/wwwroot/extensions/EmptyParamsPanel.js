@@ -97,7 +97,8 @@
                                 return `${context.label}: ${val} objeto(s) sin valor`;
                             }
                         }
-                    }
+                    },
+                    streaming: false
                 },
                 onClick: (evt, activeElements) => {
                     if (activeElements.length > 0) {

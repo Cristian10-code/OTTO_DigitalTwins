@@ -78,7 +78,8 @@
                                 return `${labelValue}: ${percentage}`;
                             }
                         }
-                    }
+                    },
+                    streaming: false
                 },
                 onClick: (evt, activeElements) => {
                     if (activeElements.length > 0) {
