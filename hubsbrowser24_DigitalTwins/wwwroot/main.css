@@ -15,10 +15,10 @@
 
 #toolbar {
     position: absolute;
-    top: 48px;
+    top: 5em;
     display: flex;
     flex-direction: column;
-    background-color: #2c2c2f; /* Fondo del toolbar */
+    background-color: #081E32; /* Fondo del toolbar */
     position: fixed;
     width: 220px; /* Ancho normal del toolbar */
     height: 100%;
@@ -28,9 +28,7 @@
     justify-content: initial;
     transform-origin: top;
     transition: width 0.3s ease; /* Transición suave para el cambio de ancho */
-
 }
-
 
 /* Cuando el botón menu-btn se presiona */
 #toolbar.hidden {
@@ -42,12 +40,12 @@
     left: 5px;
     width: 60px; /* Ancho de los botones convertidos en círculos */
     height: 60px; /* Alto de los botones igual al ancho */
-    top: 23px;
+    top: 20px;
     margin-bottom: 25px;
     padding: 10px;
     border: none;
     border-radius: 50%; /* Bordes redondeados (círculos) */
-    background-color: #000000;
+    background-color: #0A3D62;
     color: transparent; /* El texto desaparece por defecto */
     font-family: ArtifaktElement;
     font-size: 1.2em; /* Ajuste del tamaño de íconos */
@@ -56,9 +54,8 @@
     transition: background-color 0.3s ease, width 0.3s ease; /* Agregar transición en el ancho */
 
     display: flex;
-    justify-content: flex-start; /* Alinea el contenido a la izquierda */
+    justify-content: center; /* Centra horizontalmente el contenido */
     align-items: center; /* Centra verticalmente el contenido */
-
     gap: 10px; /* Espaciado entre el ícono y el texto */
 }
 
@@ -69,17 +66,17 @@
 }
 
 #toolbar:not(.hidden) .toolbar-btn {
-    width: 208px; /* Ancho normal cuando está expandido */
+    width: 200px; /* Ancho normal cuando está expandido */
     border-radius: 30px; /* Bordes más cuadrados cuando se expande */
-    color: white; /* Hacemos visible el texto */
+    color: #FF6B00; /* Hacemos visible el texto */
 
     padding-left: 22px;
 }
 
 /* Hacer visible el texto dentro del botón cuando el toolbar está expandido */
 #toolbar:not(.hidden) .toolbar-btn span {
-    display: inline-block;
-    color: white; /* Texto en blanco */
+    display: inline-block;  
+    color: #B7FEEA; /* Texto en blanco */
     font-size: 0.9em; /* Ajustar el tamaño del texto */
     padding-left: 10px; /* Separación del ícono */
 }
@@ -97,7 +94,7 @@
 
 /* Estilos para los íconos dentro de los botones */
 .toolbar-btn i {
-    color: white; /* Color del ícono */
+    color: #FF6B00; /* Color del ícono */
     font-size: 1.5em; /* Tamaño del ícono */
     transition: transform 0.3s ease; /* Efecto para animar el ícono */
 }
@@ -119,11 +116,11 @@
 /* Estilos del toolbar fijo en el lado derecho digital twins */
 #toolbardt {
     position: fixed; /* Fijo en la pantalla */
-    top: 48px; /* Empieza desde la parte superior */
+    top: 5em; /* Empieza desde la parte superior */
     right: -80px; /* Pegado al lado derecho */
     display: flex;
     flex-direction: column; /* Alineación vertical de los botones */
-    background-color: #2c2c2f; /* Fondo oscuro */
+    background-color: #081E32; /* Fondo oscuro */
     width: 75px; /* Ancho fijo del toolbar */
     height: 100%; /* Ocupa toda la altura de la pantalla */
     align-items: center; /* Centra los botones horizontalmente */
@@ -141,8 +138,8 @@
     padding: 10px; /* Relleno interno */
     border: none; /* Sin bordes */
     border-radius: 50%; /* Forma circular */
-    background-color: #000000; /* Fondo negro */
-    color: white; /* Ícono blanco */
+    background-color: #0A3D62; /* Fondo negro */
+    color: #FF6b00; /* Ícono blanco */
     font-size: 1.5em; /* Tamaño del ícono */
     cursor: pointer; /* Cambia el cursor al pasar */
     display: flex;
@@ -159,7 +156,7 @@
 
 /* Estilo del ícono dentro del botón */
 .toolbardt-btn i {
-    color: white; /* Ícono blanco */
+    color: #FF6b00; /* Ícono blanco */
     font-size: 1.5em; /* Ajuste del tamaño del ícono */
     transition: transform 0.3s ease; /* Animación al hover */
 }
@@ -186,25 +183,25 @@
 
 
 #header {
-    height: 3em;
+    height: 5em;
     width: 100%;
     display: flex;
     flex-flow: row nowrap;
     justify-content: space-between;
     align-items: center;
-    background-color: #252529;
+    background-color: #081E32;
     color: #c7c7cc;
 }
 /* Estilos para el sidebar */
 #sidebar {
     position: fixed;
-    top: 3em;
+    top: 5em;
     bottom: 0;
-    width: 450px;
-    background-color: #3b3b3f;
-    overflow-y:auto;
-    overflow-x:auto;
-    color: #c7c7cc;
+    width: 350px;
+    background-color: #0A3D62;
+    overflow-y: auto;
+    overflow-x: auto;
+    color: #ffffff;
     /*opacity: 0.6;*/
     white-space: nowrap;
     z-index: 2000;
@@ -218,17 +215,19 @@
 /* Estilos para el sidebar cuando el toolbar está contraído */
 #sidebar.expanded {
     left: 220px; /* Cuando el toolbar está expandido */
+    transition: width 0.3s ease;
 }
 
 /* Estilos para el sidebar cuando el toolbar está oculto */
 #sidebar.collapsed {
     left: 75px; /* Cuando el toolbar está contraído */
+    transition: width 0.3s ease;
 }
 
 /* Agregar estilo de ocultación */
 #sidebar.hidden {
     width: 75px;
-    transition: left 0.3s ease;
+    transition: width 0.3s ease;
     /*transform: translateX(-30%);*/ /* Desplazar el sidebar fuera de la pantalla */
 }
 
@@ -252,9 +251,9 @@
     position: relative;
     left: 11px;
 }
-    
+
 .menu-btn i {
-    color: #c7c7cc; /* Color del ícono */
+    color: #FF6b00; /* Color del ícono */
     font-size: 1.5em; /* Tamaño del ícono */
 }
 
@@ -266,7 +265,7 @@
 
 
 #preview {
-    top: 3em;
+    top: 5em;
     right: 0;
     bottom: 0;
     width: 97%; /* El viewer ocupa el 75% cuando el sidebar está visible */
@@ -323,15 +322,16 @@
 }
 
 #header > * {
-    height: 2em;
+    height: 5em;
     margin: 0 0.5em;
 }
 
 #login {
     font-family: ArtifaktElement;
     font-size: 1em;
-    background-color: #3b3b3f;
+    background-color: #0a3d62;
     color: #c7c7cc;
+    height: 40px;
 }
 
 #header .title {    
@@ -351,7 +351,7 @@
 }
 
 #header .dot {
-    color: #008768;
+    color: #FF6b00;
     margin: 0 0.2em;
 }
 
@@ -417,7 +417,7 @@
 /*Se introduce el panel de BIM Quality*/
 #bim-quality-panel {
     position: fixed;
-    top: 48px;
+    top: 5em;
     right: -650px; /* Oculto */
     width: 550px;
     height: 100%;
@@ -450,7 +450,7 @@
 #panel-container {
     position: fixed;
     right: 0;
-    top: 48px;
+    top: 5em;
     width: 550px;
     height: 100%;
     background-color: gray;
@@ -655,11 +655,11 @@
 /* Ajustes del panel de sensores */
 #sensor-panel {
     position: fixed;
-    top: 48px; /* Debajo del header */
-    right:-650px;
+    top: 5em; /* Debajo del header */
+    right: -650px;
     width: 600px;
     height: calc(100% - 48px); /* Ajuste dinámico de la altura */
-    background-color: #1e1e1e;
+    background-color: #0A3D62;
     color: white;
     display: flex;
     flex-direction: column;
