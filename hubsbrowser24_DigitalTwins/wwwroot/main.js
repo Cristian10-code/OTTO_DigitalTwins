@@ -199,3 +199,11 @@ toolbarDTURLBtn.onclick = () => {
     containerURL.classList.toggle("visible-cont");
     console.log("¡Panel toggled!");
 }
+
+const toolbarDTHistoryBtn = document.getElementById("toolbardthistory-btn");
+const visibleContainer = document.getElementById("history-container");
+
+toolbarDTHistoryBtn.onclick = () => {
+    visibleContainer.classList.toggle("visible-history");
+    console.log("¡Panel toggled!");
+}
