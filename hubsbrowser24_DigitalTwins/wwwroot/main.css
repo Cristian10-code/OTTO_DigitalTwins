@@ -675,6 +675,27 @@
     right: 75px; /* Visible */
 }
 
+#container-url {
+    position: fixed;
+    top: 5em;
+    right: 75px; /* Oculto por defecto */
+    width: 600px;
+    height: calc(100% - 48px);
+    background-color: #0A3D62;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 10px;
+    box-shadow: -2px 0 10px rgba(0, 0, 0, 0.5);
+    z-index: 1000;
+    transition: right 0.3s ease-in-out;
+}
+
+#container-url.visible-cont {
+    right: -650px; /* Mostrado en pantalla */
+}
 /* Ajustes de cada contenedor de gráfica */
 .chart-container {
     width: 95%; /* Más espacio para evitar cortes */

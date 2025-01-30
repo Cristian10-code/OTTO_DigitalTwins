@@ -21,16 +21,16 @@ public class HubsController : ControllerBase
         if (tokens == null)
         {
             return Unauthorized();
-        }        
-        /*return Ok(
+        }
+        return Ok(
             from hub in await _aps.GetHubs(tokens)
             select new { id = hub.Id, name = hub.Attributes.Name }
         );
-        */        
-        var filteredHubs = (from hub in await _aps.GetHubs(tokens)
-                            where hub.Id == "b.16a028b3-1b05-4be7-a54d-d87c2c4e8bd4"
-                            select new { id = hub.Id, name = hub.Attributes.Name }).ToList();
-        return Ok(filteredHubs);
+
+        //var filteredHubs = (from hub in await _aps.GetHubs(tokens)
+        //                    where hub.Id == "b.16a028b3-1b05-4be7-a54d-d87c2c4e8bd4"
+        //                    select new { id = hub.Id, name = hub.Attributes.Name }).ToList();
+        //return Ok(filteredHubs);
     }
 
     [HttpGet("{hub}/projects")]
@@ -41,15 +41,15 @@ public class HubsController : ControllerBase
         {
             return Unauthorized();
         }
-        /*return Ok(
+        return Ok(
             from project in await _aps.GetProjects(hub, tokens)
             select new { id = project.Id, name = project.Attributes.Name }
         );
-        */        
-        var filteredProjects = (from project in await _aps.GetProjects(hub, tokens)
-                                where project.Id == "b.ee1d973c-901e-4a93-96e7-505fc12e262e"
-                                select new { id = project.Id, name = project.Attributes.Name }).ToList();
-        return Ok(filteredProjects);
+
+        //var filteredProjects = (from project in await _aps.GetProjects(hub, tokens)
+        //                        where project.Id == "b.ee1d973c-901e-4a93-96e7-505fc12e262e"
+        //                        select new { id = project.Id, name = project.Attributes.Name }).ToList();
+        //return Ok(filteredProjects);
     }
 
     [HttpGet("{hub}/projects/{project}/contents")]

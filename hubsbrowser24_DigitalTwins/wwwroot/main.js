@@ -192,4 +192,10 @@ document.addEventListener("DOMContentLoaded", () => {
         console.error("Botón o panel no encontrado.");
     }
 });
+const toolbarDTURLBtn = document.getElementById("toolbardtURL-btn");
+const containerURL = document.getElementById("container-url");
 
+toolbarDTURLBtn.onclick = () => {
+    containerURL.classList.toggle("visible-cont");
+    console.log("¡Panel toggled!");
+}
