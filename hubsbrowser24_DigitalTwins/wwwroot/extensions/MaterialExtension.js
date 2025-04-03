@@ -24,18 +24,51 @@ class MaterialExtension extends BaseExtension {
             console.error("No se encontró el botón con ID 'budget-btn'.");
         }
 
+        // Registrar el manejador para cuando cambia el modelo
+        this.viewer.addEventListener(Autodesk.Viewing.MODEL_ROOT_LOADED_EVENT, this.onModelLoaded.bind(this));
+
         console.log('MaterialExtension loaded.');
         return true;
     }
 
     unload() {
         super.unload();
+
+        // Limpiar antes de descargar la extensión
+        this.cleanupCharts();
+
         if (this._panel) {
             this._panel.setVisible(false);
             this._panel = null;
         }
+
         console.log('MaterialExtension unloaded.');
         return true;
+    }
+
+    onModelLoaded(event) {
+        // Limpiar los gráficos existentes al cargar un nuevo modelo
+        this.cleanupCharts();
+
+        // Si el panel está visible, actualizarlo con el nuevo modelo
+        if (this._panel && this._panel.isVisible()) {
+            setTimeout(() => {
+                this.updatePanelData();
+            }, 500);
+        }
+    }
+
+    cleanupCharts() {
+        // Limpiar todas las instancias de Chart.js
+        if (window.Chart && window.Chart.instances) {
+            Object.keys(window.Chart.instances).forEach(key => {
+                try {
+                    window.Chart.instances[key].destroy();
+                } catch (e) {
+                    console.warn(`Error al destruir chart ${key}:`, e);
+                }
+            });
+        }
     }
 
     async togglePanel() {
@@ -51,6 +84,11 @@ class MaterialExtension extends BaseExtension {
         if (isVisible) {
             // Si el panel es visible, actualizamos los datos
             await this.updatePanelData();
+        } else {
+            // Si se oculta el panel, limpiar los colores y Chart.js
+            this.viewer.clearThemingColors();
+            this.viewer.impl.sceneUpdated(true);
+            this.cleanupCharts();
         }
     }
 
